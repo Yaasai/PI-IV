@@ -13,6 +13,10 @@
 \usepackage[portuguese]{babel}
 
 
+% TODO: Alterar a fonte das legendas e labels do gráfico
+% TODO: Falar qual das tabelas do gistemp está sendo usada
+% TODO: Finalizar com qual o melhor caso para o boxplot
+
 \title{PI IV - Visualização de dados numéricos}
 \author{Lucas Gomes Santana}
 \date{\today}
@@ -21,14 +25,15 @@
 
 \maketitle
 
-Para as visualizações foi utilizado um subconjunto dos dados da GISS Surface Temperature Analysis (GISTEMP v4)\cite{gistemp}, contendo números das alterações da média de temperatura global, do hemisfério sul e norte. Em ambos gráficos o eixo y representa a alteração da média de temperatura anual enquanto o eixo x representa o ano da alteração. \par
+Para as visualizações foi utilizado um subconjunto dos dados da GISS Surface Temperature Analysis (GISTEMP v4)\cite{gistemp}, contendo números das alterações da média de temperatura global, do hemisfério sul e norte. Em ambos gráficos o eixo y representa a alteração da média de temperatura anual enquanto o eixo x representa o ano da alteração.\\
+
 
 \textbf{\Large Gráfico de linhas}\par
 A primeira representação dos dados numéricos é por meio de linhas.  Como os dados representam as alterações com o passar do tempo, um gráfico do tipo linha pode mostrar a progressão e tendências futuras.
 \setcounter{figure}{0}
 \begin{figure}[H]
 \centering
-\includegraphics[width = 0.714\textwidth]{lines.png}
+\includegraphics[width = 0.7056\textwidth]{lines.png}
 \label{fig:A.1}
 \caption{Gráfico de linha mostrando a alteração de temperatura anual da terra pelo tempo.}
 \end{figure}
@@ -44,8 +49,8 @@ A segunda representação é do tipo 'boxplot'. Esse tipo de gráfico é usado p
 \end{figure}
 
 \textbf{\Large Comparação} \par
-A pesar dos dois representarem o mesmo conjunto de dados, o objetivo das representações é completamente diferente. O gráfico de linha proporciona uma visualização em que todos os dados são mapeados diretamente, enquanto o boxplot os agrupa e foca em mostrar características dos dados como um conjunto. \par
-Para determinar algo sobre um momento pontual ou as tendência dos dados, uma visualização de linhas, entre os dois, é a melhor opção. O boxplot representa características focadas na distribuição dos dados como um todo, mas perde todas as individualidades pontuais dos dados.
+A pesar dos dois representarem o mesmo conjunto de dados, o objetivo das representações é completamente diferente. O gráfico de linha proporciona uma visualização em que todos os dados são mapeados diretamente, enquanto o boxplot os agrupa e foca em mostrar características dos dados como um conjunto, mas perde todas as individualidades pontuais dos dados. \par
+Para determinar algo sobre um momento pontual ou as tendência dos dados, uma visualização de linhas, entre os dois, é a melhor opção. O boxplot vai ter seu 
 
 \newpage
 \begin{thebibliography}{9}
