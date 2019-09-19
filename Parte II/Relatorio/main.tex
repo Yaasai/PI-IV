@@ -4,6 +4,7 @@
 \setlength{\parindent}{0pt} 
 \setlength{\parskip}{5pt} 
 \pagenumbering{gobble}
+\setlength{\parindent}{10ex}
 
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath,amsthm,amssymb}
@@ -20,9 +21,9 @@
 
 \maketitle
 
-Para as visualizações foi utilizado um subconjunto dos dados da GISS Surface Temperature Analysis (GISTEMP v4)\cite{gistemp}, contendo números das alterações da média de temperatura global, do hemisfério sul e norte. Em ambos gráficos o eixo y representa a alteração da média de temperatura anual enquanto o eixo x representa o ano da alteração. \\
+Para as visualizações foi utilizado um subconjunto dos dados da GISS Surface Temperature Analysis (GISTEMP v4)\cite{gistemp}, contendo números das alterações da média de temperatura global, do hemisfério sul e norte. Em ambos gráficos o eixo y representa a alteração da média de temperatura anual enquanto o eixo x representa o ano da alteração. \par
 
-\textbf{\Large Gráfico de linhas}\\
+\textbf{\Large Gráfico de linhas}\par
 A primeira representação dos dados numéricos é por meio de linhas.  Como os dados representam as alterações com o passar do tempo, um gráfico do tipo linha pode mostrar a progressão e tendências futuras.
 \setcounter{figure}{0}
 \begin{figure}[H]
@@ -32,7 +33,7 @@ A primeira representação dos dados numéricos é por meio de linhas.  Como os 
 \caption{Gráfico de linha mostrando a alteração de temperatura anual da terra pelo tempo.}
 \end{figure}
 
-\textbf{\Large Boxplot}\\
+\textbf{\Large Boxplot}\par
 A segunda representação é do tipo 'boxplot'. Esse tipo de gráfico é usado para mostrar de forma rápida a distribuição dos dados, outliers e o quão simétricos eles são.
 \setcounter{figure}{1}
 \begin{figure}[H]
@@ -42,22 +43,10 @@ A segunda representação é do tipo 'boxplot'. Esse tipo de gráfico é usado p
 	\caption{Gráfico de linha mostrando a alteração de temperatura anual da terra pelo tempo.}
 \end{figure}
 
-\textbf{\Large Comparação}
-\begin{center}
-	\begin{tabular}{ |c|c|c| } 
-		\hline
-		 	  & Linhas & Boxplot \\ 
-		\hline
-		Tendência &  &  \\ 
-		\hline
-		Progressão &  &  \\ 
-		\hline
-		Distribuição &  &  \\ 
-		\hline
-		Simetria &  &  \\ 
-		\hline
-	\end{tabular}
-\end{center}
+\textbf{\Large Comparação} \par
+A pesar dos dois representarem o mesmo conjunto de dados, o objetivo das representações é completamente diferente. O gráfico de linha proporciona uma visualização em que todos os dados são mapeados diretamente, enquanto o boxplot os agrupa e foca em mostrar características dos dados como um conjunto. \par
+Para determinar algo sobre um momento pontual ou as tendência dos dados, uma visualização de linhas, entre os dois, é a melhor opção. O boxplot representa características focadas na distribuição dos dados como um todo, mas perde todas as individualidades pontuais dos dados.
+
 \newpage
 \begin{thebibliography}{9}
 	\bibitem{gistemp} 
